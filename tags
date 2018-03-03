@@ -1,0 +1,110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FaceDectector_Action	scripts/face_action_server.py	/^class FaceDectector_Action(object):$/;"	c
+FaceDectector_Action	scripts/face_photo_action.py	/^class FaceDectector_Action(object):$/;"	c
+FaceDectector_Action	scripts/face_recog_action.py	/^class FaceDectector_Action(object):$/;"	c
+FaceDectectors	scripts/face_recog_manager.py	/^class FaceDectectors(object):$/;"	c
+FaceDectectors	scripts/face_recog_service.py	/^class FaceDectectors(object):$/;"	c
+FaceDectectors	scripts/face_recog_srv_client.py	/^class FaceDectectors(object):$/;"	c
+FaceDectectors	scripts/face_service.py	/^class FaceDectectors(object):$/;"	c
+FaceDectectors	scripts/test_ros	/^class FaceDectectors(object):$/;"	c
+FaceDectectors_photo	scripts/take_face_photo_server.py	/^class FaceDectectors_photo(object):$/;"	c
+Face_manager	scripts/face_action_server.py	/^	Face_manager = FaceDectector_Action('face_recog_action')$/;"	v	class:FaceDectector_Action
+Face_manager	scripts/face_photo_action.py	/^	Face_manager = FaceDectector_Action(rospy.get_name())$/;"	v	class:FaceDectector_Action
+Face_manager	scripts/face_recog_action.py	/^	Face_manager = FaceDectector_Action(rospy.get_name())$/;"	v	class:FaceDectector_Action
+Face_manager	scripts/face_recog_service.py	/^	Face_manager = FaceDectectors(sys.argv[1] if len(sys.argv) > 1 else 0.0)$/;"	v	class:FaceDectectors
+Face_manager	scripts/face_recog_srv_client.py	/^	Face_manager = FaceDectectors(sys.argv[1] if len(sys.argv) > 1 else 0.0)$/;"	v	class:FaceDectectors
+Face_manager	scripts/face_service.py	/^	Face_manager = FaceDectectors(sys.argv[1] if len(sys.argv) > 1 else 0.0)$/;"	v	class:FaceDectectors
+Face_manager	scripts/take_face_photo_server.py	/^    Face_manager = FaceDectectors_photo()$/;"	v	class:FaceDectectors_photo
+Face_manager	scripts/test_ros	/^	Face_manager = FaceDectectors(sys.argv[1] if len(sys.argv) > 1 else 0.0)$/;"	v	class:FaceDectectors
+FindObjectAction	scripts/example_action.py	/^class FindObjectAction:$/;"	c
+Isrunnging	scripts/face_recog_service.py	/^	def Isrunnging(self,req):$/;"	m	class:FaceDectectors
+Isrunnging	scripts/face_recog_srv_client.py	/^	def Isrunnging(self,req):$/;"	m	class:FaceDectectors
+Isrunnging	scripts/face_service.py	/^	def Isrunnging(self,req):$/;"	m	class:FaceDectectors
+Isrunnging	scripts/take_face_photo_server.py	/^    def Isrunnging(self, req):$/;"	m	class:FaceDectectors_photo
+Isrunnging	scripts/take_photo_server.py	/^    def Isrunnging(self, req):$/;"	m	class:photo_manager
+Photo_saver	scripts/take_photo_server.py	/^    Photo_saver = photo_manager()$/;"	v
+__init__	scripts/example_action.py	/^    def __init__(self, name):$/;"	m	class:FindObjectAction
+__init__	scripts/face_action_server.py	/^	def __init__(self, name, wait=0.0):$/;"	m	class:FaceDectector_Action
+__init__	scripts/face_photo_action.py	/^	def __init__(self, name, wait=0.0):$/;"	m	class:FaceDectector_Action
+__init__	scripts/face_recog_action.py	/^	def __init__(self, name, wait=0.0):$/;"	m	class:FaceDectector_Action
+__init__	scripts/face_recog_manager.py	/^	def __init__(self, wait=0.0):$/;"	m	class:FaceDectectors
+__init__	scripts/face_recog_service.py	/^	def __init__(self, wait=0.0):$/;"	m	class:FaceDectectors
+__init__	scripts/face_recog_srv_client.py	/^	def __init__(self, wait=0.0):$/;"	m	class:FaceDectectors
+__init__	scripts/face_service.py	/^	def __init__(self, wait=0.0):$/;"	m	class:FaceDectectors
+__init__	scripts/take_face_photo_server.py	/^    def __init__(self, wait=0.0):$/;"	m	class:FaceDectectors_photo
+__init__	scripts/take_photo_server.py	/^    def __init__(self, wait=0.0):$/;"	m	class:photo_manager
+__init__	scripts/test_ros	/^	def __init__(self, wait=0.0):$/;"	m	class:FaceDectectors
+_feedback	scripts/face_photo_action.py	/^	_feedback = face_recognition_ros.msg.PhotoActionFeedback()$/;"	v	class:FaceDectector_Action
+_feedback	scripts/face_recog_action.py	/^	_feedback = face_recognition.msg.FaceRecogFeedback()$/;"	v	class:FaceDectector_Action
+_result	scripts/face_photo_action.py	/^    _result = face_recognition_ros.msg.PhotoActionResult()$/;"	v	class:FaceDectector_Action
+_result	scripts/face_recog_action.py	/^    _result = face_recognition.msg.FaceRecogResult()$/;"	v	class:FaceDectector_Action
+act	scripts/task_sppech.py	/^def act(robot):$/;"	f
+crop_face	scripts/face_action_server.py	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectector_Action
+crop_face	scripts/face_photo_action.py	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectector_Action
+crop_face	scripts/face_recog_action.py	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectector_Action
+crop_face	scripts/face_recog_manager.py	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectectors
+crop_face	scripts/face_recog_service.py	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectectors
+crop_face	scripts/face_recog_srv_client.py	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectectors
+crop_face	scripts/face_service.py	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectectors
+crop_face	scripts/take_face_photo_server.py	/^    def crop_face(self, image_data):$/;"	m	class:FaceDectectors_photo
+crop_face	scripts/test_ros	/^	def crop_face(self,image_data):$/;"	m	class:FaceDectectors
+execute_cb	scripts/example_action.py	/^    def execute_cb(self, goal):$/;"	m	class:FindObjectAction
+execute_cb	scripts/face_action_server.py	/^	def execute_cb(self, goal):$/;"	m	class:FaceDectector_Action
+execute_cb	scripts/face_photo_action.py	/^	def execute_cb(self, goal):$/;"	m	class:FaceDectector_Action
+execute_cb	scripts/face_recog_action.py	/^	def execute_cb(self, goal):$/;"	m	class:FaceDectector_Action
+face_action_client	scripts/client_test.py	/^def face_action_client():$/;"	f
+face_action_client	scripts/face_action_client.py	/^def face_action_client():$/;"	f
+face_image	scripts/from PIL import Image.py	/^    face_image = image[top:bottom, left:right]$/;"	v
+face_locations	scripts/from PIL import Image.py	/^face_locations = face_recognition.face_locations(image)$/;"	v
+image	scripts/from PIL import Image.py	/^image = face_recognition.load_image_file("ut_student2.jpg")$/;"	v
+image_callback	scripts/face_action_server.py	/^	def image_callback(self,msg):$/;"	m	class:FaceDectector_Action
+image_callback	scripts/face_photo_action.py	/^	def image_callback(self,msg):$/;"	m	class:FaceDectector_Action
+image_callback	scripts/face_recog_action.py	/^	def image_callback(self,msg):$/;"	m	class:FaceDectector_Action
+image_callback	scripts/face_recog_manager.py	/^	def image_callback(self,msg):$/;"	m	class:FaceDectectors
+image_callback	scripts/face_recog_service.py	/^	def image_callback(self,msg):$/;"	m	class:FaceDectectors
+image_callback	scripts/face_recog_srv_client.py	/^	def image_callback(self,msg):$/;"	m	class:FaceDectectors
+image_callback	scripts/face_service.py	/^	def image_callback(self,msg):$/;"	m	class:FaceDectectors
+image_callback	scripts/take_face_photo_server.py	/^    def image_callback(self, msg):$/;"	m	class:FaceDectectors_photo
+image_callback	scripts/take_photo_server.py	/^    def image_callback(self, msg):$/;"	m	class:photo_manager
+image_callback	scripts/test_ros	/^	def image_callback(self,msg):$/;"	m	class:FaceDectectors
+key_callback	scripts/face_action_server.py	/^	def key_callback(self,msg):		#"p"$/;"	m	class:FaceDectector_Action
+key_callback	scripts/face_photo_action.py	/^	def key_callback(self,msg):		#"p"$/;"	m	class:FaceDectector_Action
+key_callback	scripts/face_recog_action.py	/^	def key_callback(self,msg):		#"p"$/;"	m	class:FaceDectector_Action
+key_callback	scripts/face_recog_manager.py	/^	def key_callback(self,msg):		#"p"$/;"	m	class:FaceDectectors
+key_callback	scripts/face_recog_srv_client.py	/^	def key_callback(self,msg):		#"p"$/;"	m	class:FaceDectectors
+key_callback	scripts/face_service.py	/^	def key_callback(self,msg):		#"p"$/;"	m	class:FaceDectectors
+key_callback	scripts/test_ros	/^	def key_callback(self,msg):		#"p"$/;"	m	class:FaceDectectors
+listen	scripts/task_sppech.py	/^listen = None$/;"	v
+listener	scripts/face_action_server.py	/^	def listener(self,wait=0.0):$/;"	m	class:FaceDectector_Action
+listener	scripts/face_photo_action.py	/^	def listener(self,goal,wait=0.0):$/;"	m	class:FaceDectector_Action
+listener	scripts/face_recog_action.py	/^	def listener(self,goal,wait=0.0):$/;"	m	class:FaceDectector_Action
+listener	scripts/face_recog_manager.py	/^	def listener(self,wait=0.0):$/;"	m	class:FaceDectectors
+listener	scripts/face_recog_service.py	/^	def listener(self):$/;"	m	class:FaceDectectors
+listener	scripts/face_recog_srv_client.py	/^	def listener(self):$/;"	m	class:FaceDectectors
+listener	scripts/face_service.py	/^	def listener(self):$/;"	m	class:FaceDectectors
+listener	scripts/take_face_photo_server.py	/^    def listener(self):$/;"	m	class:FaceDectectors_photo
+listener	scripts/take_photo_server.py	/^    def listener(self):$/;"	m	class:photo_manager
+listener	scripts/test_ros	/^	def listener(self,wait=0.0):$/;"	m	class:FaceDectectors
+moveBindings	scripts/face_photo_action.py	/^moveBindings = {$/;"	v
+moveBindings	scripts/face_recog_action.py	/^moveBindings = {$/;"	v
+moveBindings	scripts/face_service.py	/^moveBindings = {$/;"	v
+moveBindings	scripts/test_ros	/^moveBindings = {$/;"	v
+move_robot	scripts/task_sppech.py	/^def move_robot(omni_base, azimuth):$/;"	f
+photo_manager	scripts/take_photo_server.py	/^class photo_manager(object):$/;"	c
+pil_image	scripts/from PIL import Image.py	/^    pil_image = image.fromarray(face_image)$/;"	v
+result	scripts/client_test.py	/^		result = face_action_client()$/;"	v
+result	scripts/face_action_client.py	/^		result = face_action_client()$/;"	v
+server	scripts/example_action.py	/^    server = FindObjectAction(rospy.get_name())$/;"	v	class:FindObjectAction
+speak_time	scripts/task_sppech.py	/^speak_time = 0$/;"	v
+speech	scripts/task_sppech.py	/^speech = None$/;"	v
+speech_cb	scripts/speech_sub	/^def speech_cb(msg):$/;"	f
+speech_server	scripts/speech_sub	/^def speech_server():$/;"	f
+speech_time	scripts/task_sppech.py	/^speech_time = 0$/;"	v
+speech_transcript	scripts/task_sppech.py	/^speech_transcript = ''$/;"	v
+unanswered	scripts/task_sppech.py	/^unanswered = False$/;"	v
+update_face	scripts/task_sppech.py	/^def update_face(s):$/;"	f
